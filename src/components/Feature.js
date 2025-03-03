@@ -35,7 +35,7 @@ const features = [
 
 const FeaturesSection = () => {
     return (
-        <section className="py-16 text-center font-manrope mx-12 w-[100wh]">
+        <section id="features" className="py-16 text-center font-manrope mx-12 w-[100wh]">
             <div className="container mx-auto md:px-6">
                 <p className="text-[#4A9D9F] uppercase text-[16px] font-semibold font-manrope">Features</p>
                 <h2 className="text-4xl font-semibold mt-2 text-[#0E1010]">Why Gatekipas?</h2>
@@ -61,7 +61,7 @@ const FeaturesSection = () => {
                                 {/* <img src={feature.image} alt="feature background" className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-24 opacity-20" /> */}
                             </div>
 
-                            <a href="#" className=" mt-3 flex items-center gap-2">
+                            <a href="https://www.google.com/" className=" mt-3 flex items-center gap-2">
                                 <p className="text-[#4A9D9F] font-semibold text-[16px]">
                                     Learn More
                                 </p>

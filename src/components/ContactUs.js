@@ -8,7 +8,7 @@ const ContactUs = () => {
 
 
     return (
-        <section className="py-10 px-6 font-manrope text-center w-full">
+        <section id="contact" className="py-10 px-6 font-manrope text-center w-full">
             <div className="container mx-auto w-full">
                 <p className="text-[#4A9D9F] uppercase text-[16px] font-semibold">Contact Us</p>
                 <h2 className="text-4xl font-semibold mt-2 text-[#0E1010]">Get In Touch</h2>
@@ -65,7 +65,7 @@ const ContactUs = () => {
 
                         <div className="mt-4 flex items-center gap-2">
                             <input type="checkbox" id="privacy" className="w-4 h-4" />
-                            <label htmlFor="privacy" className="text-gray-600 text-sm">You agree to our friendly <a href="#" className="text-[#4A9D9F] underline">privacy policy</a>.</label>
+                            <label htmlFor="privacy" className="text-gray-600 text-sm">You agree to our friendly <a href="https://www.google.com/" className="text-[#4A9D9F] underline">privacy policy</a>.</label>
                         </div>
                         <button className="mt-6 w-full bg-[#33DBA8] text-white py-3 rounded-lg font-semibold hover:bg-[#3b8587] transition-all">
                             Send Message

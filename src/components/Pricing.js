@@ -59,7 +59,7 @@ const pricingPlans = [
 
 const PricingSection = () => {
     return (
-        <section className="py-16 text-center font-manrope">
+        <section id="pricing" className="py-16 text-center font-manrope">
             <div className="container mx-auto px-6">
                 <p className="text-[#4A9D9F] uppercase text-[16px] font-semibold">Pricing</p>
                 <h2 className="text-4xl font-semibold mt-2 text-[#0E1010]">Pricing Plans</h2>

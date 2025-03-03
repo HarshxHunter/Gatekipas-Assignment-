@@ -23,7 +23,7 @@ const Header = () => {
             <nav className="hidden md:flex gap-10 text-gray-700 text-[15px] font-[600]">
                 <a href="#features" className="hover:text-black">Features</a>
                 <a href="#pricing" className="hover:text-black">Pricing</a>
-                <a href="#faq" className="hover:text-black">FAQ</a>
+                <a href="#faqs" className="hover:text-black">FAQ</a>
                 <a href="#blogs" className="hover:text-black">Blogs</a>
                 <a href="#contact" className="hover:text-black">Contact</a>
             </nav>
@@ -35,7 +35,7 @@ const Header = () => {
                     <img src="/arrowDown.svg" alt="arrow Logo" className="h-2" />
                 </div>
 
-                <a href="#signup" className="text-gray-700 hover:text-black text-[15px] font-[500] hidden md:block">Sign Up</a>
+                <a href="https://www.google.com/signup" className="text-gray-700 hover:text-black text-[15px] font-[500] hidden md:block">Sign Up</a>
 
                 <button className="bg-[#33DBA8] text-white px-4 py-2 rounded-lg hover:bg-green-500">
                     Demo
@@ -48,12 +48,12 @@ const Header = () => {
             )}
             <div className={`fixed top-0 left-0 h-full w-64 bg-white z-50 shadow-lg p-6 transform ${menuOpen ? "translate-x-0" : "-translate-x-full"} transition-transform duration-300 md:hidden`}>
                 <nav className="flex flex-col gap-6 text-gray-700 text-[15px] font-[600]">
-                    <a href="#features" className="hover:text-black" onClick={() => setMenuOpen(false)}>Features</a>
-                    <a href="#pricing" className="hover:text-black" onClick={() => setMenuOpen(false)}>Pricing</a>
-                    <a href="#faq" className="hover:text-black" onClick={() => setMenuOpen(false)}>FAQ</a>
-                    <a href="#blogs" className="hover:text-black" onClick={() => setMenuOpen(false)}>Blogs</a>
-                    <a href="#contact" className="hover:text-black" onClick={() => setMenuOpen(false)}>Contact</a>
-                    <a href="#signup" className="hover:text-black" onClick={() => setMenuOpen(false)}>Sign Up</a>
+                    <a href="https://www.google.com/features" className="hover:text-black" onClick={() => setMenuOpen(false)}>Features</a>
+                    <a href="https://www.google.com/pricing" className="hover:text-black" onClick={() => setMenuOpen(false)}>Pricing</a>
+                    <a href="https://www.google.com/faq" className="hover:text-black" onClick={() => setMenuOpen(false)}>FAQ</a>
+                    <a href="https://www.google.com/blogs" className="hover:text-black" onClick={() => setMenuOpen(false)}>Blogs</a>
+                    <a href="https://www.google.com/contact" className="hover:text-black" onClick={() => setMenuOpen(false)}>Contact</a>
+                    <a href="https://www.google.com/signup" className="hover:text-black" onClick={() => setMenuOpen(false)}>Sign Up</a>
                 </nav>
             </div>
         </header>

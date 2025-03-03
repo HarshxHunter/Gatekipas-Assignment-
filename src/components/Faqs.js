@@ -17,7 +17,7 @@ const FAQSection = () => {
     };
 
     return (
-        <section className="py-16 text-center font-manrope">
+        <section id="faqs" className="py-16 text-center font-manrope">
             <div className="container mx-auto px-6">
                 <p className="text-[#4A9D9F] uppercase text-[16px] font-semibold">FAQs</p>
                 <h2 className="text-4xl font-semibold mt-2 text-[#0E1010]">Frequently Asked Questions</h2>
